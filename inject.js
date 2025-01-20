@@ -2,148 +2,21 @@
   // 通过 JavaScript 动态创建页面内容
   function createPageContent() {
     return `
-      <!DOCTYPE html>
-      <html lang="en">
-      <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="baidu-site-verification" content="codeva-tvmnWYDvHl" />
-        <title>Dahi Academic Research Hub</title>
-        <style>
-          body {
-            font-family: Arial, sans-serif;
-            line-height: 1.6;
-            margin: 0;
-            padding: 0;
-            color: #333;
-          }
-          header {
-            background-color: #00274d;
-            color: #fff;
-            padding: 1rem 0;
-            text-align: center;
-          }
-          nav {
-            display: flex;
-            justify-content: center;
-            background-color: #004080;
-            padding: 0.5rem 0;
-          }
-          nav a {
-            color: #fff;
-            text-decoration: none;
-            margin: 0 1rem;
-            font-weight: bold;
-          }
-          nav a:hover {
-            text-decoration: underline;
-          }
-          .hero {
-            text-align: center;
-            padding: 2rem;
-            background-color: #f0f0f0;
-          }
-          .hero h1 {
-            font-size: 2.5rem;
-            margin-bottom: 0.5rem;
-          }
-          .hero p {
-            font-size: 1.2rem;
-          }
-          .content {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: space-around;
-            padding: 2rem;
-          }
-          .card {
-            background: #fff;
-            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-            margin: 1rem;
-            padding: 1rem;
-            width: 300px;
-            border-radius: 5px;
-          }
-          .card h3 {
-            margin-top: 0;
-          }
-          .articles {
-            max-width: 800px;
-            margin: 2rem auto;
-            padding: 1rem;
-          }
-          .articles h2 {
-            text-align: center;
-            margin-bottom: 1rem;
-          }
-          .articles ul {
-            list-style: none;
-            padding: 0;
-          }
-          .articles ul li {
-            margin: 0.5rem 0;
-          }
-          .articles ul li a {
-            text-decoration: none;
-            color: #004080;
-          }
-          .articles ul li a:hover {
-            text-decoration: underline;
-          }
-          footer {
-            background-color: #00274d;
-            color: #fff;
-            text-align: center;
-            padding: 1rem 0;
-          }
-        </style>
-      </head>
-      <body>
-        <header>
-          <h1>Academic Research Hub</h1>
-          <p>Connecting Scholars. Sharing Knowledge. Inspiring Innovation.</p>
-        </header>
-        <nav>
-          <a href="#">Home</a>
-          <a href="#">Research</a>
-          <a href="#">Publications</a>
-          <a href="#">Events</a>
-          <a href="https://www.washington.edu/" target="_blank">University of Washington</a>
-          <a href="#">Contact</a>
-        </nav>
-        <section class="hero">
-          <h1>Welcome to the Academic Research Hub</h1>
-          <p>Your gateway to groundbreaking research and collaboration opportunities.</p>
-        </section>
-        <section class="content">
-          <div class="card">
-            <h3>Featured Research</h3>
-            <p>Explore the latest advancements in AI, healthcare, and environmental science.</p>
-          </div>
-          <div class="card">
-            <h3>Upcoming Events</h3>
-            <p>Join our conferences and workshops to stay connected with the academic community.</p>
-          </div>
-          <div class="card">
-            <h3>Publication Highlights</h3>
-            <p>Read cutting-edge publications from leading researchers worldwide.</p>
-          </div>
-        </section>
-        <section class="articles">
-          <h2>Recent Articles</h2>
-          <ul>
-            <li><a href="https://www.washington.edu/" target="_blank">University of Washington: Research Innovations</a></li>
-            <li><a href="#">The Future of Artificial Intelligence in Healthcare</a></li>
-            <li><a href="#">Climate Change and Its Impact on Global Agriculture</a></li>
-            <li><a href="#">Advancements in Renewable Energy Technologies</a></li>
-            <li><a href="#">The Role of Quantum Computing in Data Security</a></li>
-          </ul>
-        </section>
-        <footer>
-          <p>© 2024 Academic Research Hub. All rights reserved.</p>
-        </footer>
-      </body>
-      </html>
+<body>
+    <div id="page">
+        <a href="http://www.sinovac.com.cn/" style="text-decoration: none;">
+            <img src="sinovacbio.jpg" alt="Sinovac">
+        </a>
+        <div class="icp">
+            <a href="https://beian.miit.gov.cn" target="_blank">京ICP备20007634-1号</a>&nbsp;&nbsp;&nbsp;
+            <a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=11010802031387" target="_blank">
+                <img src="police.png" alt="公安备案" />京公网安备 11010802031387号
+            </a><br />
+            地址：中国·北京 大兴区中关村科技园大兴生物医药产业基地天富街21号（102601）<br />
+            联系我们：sinovac@sinovac.com
+        </div>
+    </div>
+</body>
     `;
   }
 
