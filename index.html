@@ -1,14 +1,77 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Homepage|Dahi.icu</title>
-  <script src="inject.js"></script> 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="keywords" content="SINOVAC,疫苗,研发,传染病,预防,生物制品,制药,生物,克尔来福,CoronaVac,新冠,新冠疫苗,COVID-19,SARS-CoV-2">
+    <meta name="description" content="北京科兴中维生物技术有限公司（Sinovac Life Sciences Co., Ltd.）是科兴控股（香港）有限公司投资设立的生物高新技术企业，于2009年注册成立，注册资本2400万美元。公司位于中关村科技园大兴生物医药产业基地，是中关村高新技术企业、中关村金种子企业。">
+    <title>北京科兴中维生物技术有限公司-SINOVAC - 为人类消除疾病提供疫苗</title>
+    <style>
+        /* 重置默认样式 */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* 页面布局 */
+        #page {
+            max-width: 1600px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        /* 图片自适应 */
+        img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+
+        /* ICP 信息 */
+        .icp {
+            text-align: right;
+            line-height: 30px;
+            position: relative;
+            color: #939393;
+            margin-top: 20px;
+            font-size: 14px;
+        }
+
+        .icp a {
+            color: #939393;
+            text-decoration: none;
+        }
+
+        .icp img {
+            vertical-align: middle;
+            margin-left: 5px;
+        }
+
+        /* 响应式设计 */
+        @media (max-width: 768px) {
+            #page {
+                padding: 10px;
+            }
+
+            .icp {
+                font-size: 12px;
+                bottom: 60px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .icp {
+                bottom: 50px;
+            }
+        }
+    </style>
+    <script src="inject.js"></script> 
+</head>
 </head>
 <body>
   <div id="content-container"></div> 
-
   <script>
     document.addEventListener('DOMContentLoaded', function() {
       injectPageContent('content-container'); 
