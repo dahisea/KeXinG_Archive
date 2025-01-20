@@ -23,7 +23,7 @@
         display: block;
         width: 100%;
         position: relative;
-        background-image: url('/sinovacbio.jpg');
+        background-image: url('sinovacbio.jpg');
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
