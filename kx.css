@@ -1,0 +1,55 @@
+      body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+        background-color: #ffffff;
+        color: #333333;
+        cursor: none;
+        user-select: none;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        -webkit-touch-callout: none;
+        -webkit-user-drag: none;
+        -moz-user-drag: none;
+        -ms-user-drag: none;
+      }
+
+      #page {
+        margin: 0 auto;
+        max-width: 100%;
+      }
+
+      .logo-link {
+        display: block;
+        width: 100%;
+        position: relative;
+        background-image: url('https://dahisea.github.io/KeXinG_Archive/sinovacbio.jpg');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+        padding-bottom: 56.25%;
+      }
+
+      .icp {
+        text-align: right;
+        line-height: 10px;
+        position: relative;
+        bottom: 60px;
+        right: 33px;
+        color: #939393;
+        font-size: 10px;
+      }
+
+      .icp .icp-link {
+        color: #939393;
+        text-decoration: none;
+      }
+
+      .icp img {
+        height: 14px;
+        vertical-align: middle;
+      }
